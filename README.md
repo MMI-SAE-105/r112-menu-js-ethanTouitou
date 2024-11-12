@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : TOUITOU
+- prénom : Ethan
+- URL Netlify : https://creative-florentine-457034.netlify.app
 
 # Travail
 
