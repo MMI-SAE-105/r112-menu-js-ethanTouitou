@@ -1,0 +1,68 @@
+.card__img {
+    position: relative;
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card__img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Image avec bordure */
+.card__img--border {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #FFD700;
+    /* Bordure dorée */
+}
+
+/* Zone de légende */
+.card__caption {
+    padding: 15px;
+    background: #fff;
+    text-align: center;
+}
+
+.card__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card__excerpt {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card__link {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #FFD700;
+    /* Couleur dorée */
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.card__link:hover {
+    background: #FFA500;
+    /* Couleur orange pour le hover */
+    transform: scale(1.05);
+}
+
+.cards__chats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
